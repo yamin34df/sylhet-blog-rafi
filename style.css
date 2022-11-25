@@ -1,0 +1,39 @@
+#slider {
+    overflow:hidden
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0%;
+    left: 0%;
+    animation: 10s slider infinite;}
+    #slider figure img{
+        float: left;
+        width: 20%;
+    }
+    @keyframes slider {
+        0%{left: 0;}
+        20%{left: 0;}
+        25%{left: -100%;}
+        45%{left: -100%;}
+        50%{left: -200%;}
+        70%{left: -200%;}
+        95%{left: -300;}
+        100%{left: -300;}
+    }
+h1{color: rgba(21, 21, 196, 0.678);}
+small{color: rgba(248, 10, 10, 0.486);}
+.one{background-color: rgba(219, 98, 17, 0.664);}
+.two{background-color: rgba(17, 17, 202, 0.247);}
+.three{background-color: rgb(128, 94, 94);}
+.four{background-color: rgb(187, 79, 79);}
+.five{background-color: rgba(57, 57, 133, 0.623);}
+.six{background-color: rgb(126, 87, 87);}
+.seven{background-color: burlywood;}
+.eight{background-color: rgb(117, 71, 14);}
+.nine{background-color: rgba(39, 82, 82, 0.733);}
+.ten{background-color: rgba(85, 41, 126, 0.555);}
+.eleven{background-color: rgb(202, 202, 32);}
+.pic{display: flex;}
+div{border: 10px solid white;
+border-radius: 40px;}
